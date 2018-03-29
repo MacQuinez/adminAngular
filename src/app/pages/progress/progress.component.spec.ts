@@ -6,12 +6,13 @@ describe('ProgressComponent', () => {
   let component: ProgressComponent;
   let fixture: ComponentFixture<ProgressComponent>;
 
-  beforeEach(async(() => {
-    TestBed.configureTestingModule({
-      declarations: [ ProgressComponent ]
+  beforeEach(
+    async(() => {
+      TestBed.configureTestingModule({
+        declarations: [ProgressComponent]
+      }).compileComponents();
     })
-    .compileComponents();
-  }));
+  );
 
   beforeEach(() => {
     fixture = TestBed.createComponent(ProgressComponent);
